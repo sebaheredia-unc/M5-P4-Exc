@@ -1,7 +1,6 @@
 # TP4 — Procesador de Concentración de Hielo (MWR SAC-D/Aquarius)
 
 **Módulo 5 — Práctica 4**  
-**Área:** ADAIP · CONAE  
 **Instrumento:** MWR (Microwave Radiometer) — Misión SAC-D/Aquarius
 
 ---
@@ -239,30 +238,3 @@ data/L1/EO_*/EO_*.h5
          ▼
        Mapas de CI         →  IC_all_SP.png, IC_all_NP.png, ...
 ```
-
----
-
-## Criterios de evaluación
-
-| Ejercicio | Descripción | Puntos |
-|---|---|---|
-| 1 | `CHANNEL_MAP` correcto — 3 receivers con sus 3 datasets cada uno | 1 |
-| 2 | Scatter plot Tb con lat/lon como ejes y colorbar | 1 |
-| 3 | `apply_lat_filter` funcional — `counlat` con valores razonables | 2 |
-| 4 | Land mask cargada, dimensiones verificadas y graficada | 1 |
-| 5 | `_latlon_to_mask_idx` correcta incluyendo wrap de longitud | 2 |
-| 6 | `process_ic` calcula CI ∈ [0,1] con tie points correctos | 3 |
-| | **Total** | **10** |
-
----
-
-## Material de referencia
-
-- **Sección 1 del notebook:** exploración del HDF5 con `h5py` — ver grupos y shapes
-- **Sección 2:** `_asc_des_flag` ya resuelta, sirve como ejemplo de estructura
-- **Sección 5:** `collocate_beams` completa, sirve como referencia de estilo
-- **Docstrings de cada función:** describen los shapes de entrada y salida esperados
-
----
-
-*Módulo 5 — Práctica 4 · ADAIP · CONAE*
