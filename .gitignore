@@ -1,3 +1,19 @@
+
+
+MWR_pasadas/
+data/MWR_pasadas/
+data/L1/*
+!data/L1/.gitkeep
+data/L2/*
+!data/L2/.gitkeep
+data/L3/*
+!data/L3/.gitkeep
+data/Temp/DeltaP_G50S1v1/*
+!data/Temp/DeltaP_G50S1v1/.gitkeep
+
+data/L1.zip
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
