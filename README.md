@@ -238,3 +238,5 @@ data/L1/EO_*/EO_*.h5
          ▼
        Mapas de CI         →  IC_all_SP.png, IC_all_NP.png, ...
 ```
+
+Si hay problemas volver a correr el kernel
